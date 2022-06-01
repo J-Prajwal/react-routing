@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Product from "./components/Product";
 import Products from "./components/Products";
+import Error from './components/Error';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="products/*" element={<Products />}>
           <Route path=":id" element={<Product />}></Route>
         </Route>
+          <Route path="Error" element={<Error />}></Route>
       </Routes>
     </div>
   );

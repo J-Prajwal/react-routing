@@ -1,16 +1,24 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "A"
+      "name": "SmartPhone",
+      "price": 30,
+      "id": 0
     },
     {
-      "id": 2,
-      "name": "B"
+      "name": "Watch",
+      "price": 20,
+      "id": 1
     },
     {
-      "id": 3,
-      "name": "C"
+      "name": "Shirt",
+      "price": 50,
+      "id": 2
+    },
+    {
+      "name": "Pants",
+      "price": 100,
+      "id": 3
     }
   ]
 }
